@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Space Cat POMELO", "Space Cat POMELO\Space Cat POMELO.pyproj", "{AFABD745-44DC-4A46-98A3-BA769B70E603}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AFABD745-44DC-4A46-98A3-BA769B70E603}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFABD745-44DC-4A46-98A3-BA769B70E603}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFABD745-44DC-4A46-98A3-BA769B70E603}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFABD745-44DC-4A46-98A3-BA769B70E603}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C165A6BD-BEDE-42EA-8A6A-7368B1AF5B12}
+	EndGlobalSection
+EndGlobal
