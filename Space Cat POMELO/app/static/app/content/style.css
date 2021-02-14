@@ -50,7 +50,7 @@ body {
     text-align: left;
     top: 60%;
     left: 5%;
-    position: absolute
+    position: absolute;
 }
 
 
@@ -77,9 +77,6 @@ body {
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
 }
 
@@ -99,7 +96,7 @@ body {
 .text-block {
     width: 100%;
     height: auto;
-    padding-top 150px;
+    padding-top: 150px;
     padding: 60px 130px 70px;
 }
 
@@ -117,6 +114,35 @@ body {
     font-family: 'Red Hat Text', sans-serif;
     line-height: 180%;
     letter-spacing: 2px;
+}
+
+.block-separator {
+    width: 100%;
+    height: 30px;
+    background-color: white;
+}
+
+.block-separator-line {
+    width: 500px;
+    height: 10px;
+    background-color: #FFDF3A;
+    float: left;
+    margin-top: 10px;
+}
+
+.block-separator-circle {
+    width: 30px;
+    height: 30px;
+    background-color: #FFDF3A;
+    border-radius: 15px;
+    margin: auto;
+    position: absolute;
+    display: inline-block;
+    margin-left: 35px
+}
+
+.to-left {
+    margin-left: 100px;
 }
 
 .card {
@@ -157,4 +183,5 @@ body {
     font-size: 24px;
     color: white;
     margin: auto;
+    font-family: 'Red Hat Text', sans-serif;
 }
