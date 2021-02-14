@@ -47,15 +47,39 @@ body {
     float: left;
     display: inline-block;
     text-align: left;
-    position: relative;
     top: 60%;
     left: 5%;
+    position: absolute
+}
+
+
+.menu{
+    width: 1310px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.menu-text {
+    font-size: 36px;
+    color: #FFDF3A;
+    font-family: 'Righteous', cursive;
+    float: left; /*Задаем обтекание*/
+    line-height: 100px; /*Высота строки +  верт. центрирования текста*/
+    font-size: 40px;
+    width: 320px; /*Фиксируем ширину блока*/
+    text-align: center; /*Центрируем текст по горизонтали*/
+}
+
+.all-content {
+    width: 100%;
+    background-color: yellow;
 }
 
 .content {
     font-size: 0;
-    width: 790px;
-    margin: 100px auto 50px;
+    width: 1100px;
+    margin: 0px auto 50px;
+    background-color: forestgreen;
 }
 
 .card {
