@@ -7,33 +7,49 @@ body, h1, h2, h3, h4, p, a {
 * {
     box-sizing: border-box;
 }
-
+/*
 body {
     font-family: 'Helvetica', 'Arial', sans-serif;
 }
-
+*/
 .header {
     height: 100vh;
     background-color: #eee;
-    background-image: url(https://pictures.s3.yandex.net/frontend-developer/free-course/cover.jpg);
+    background-image: url(Spase_cat-wide1.jpg);
     background-size: cover;
     background-position: center;
     text-align: center;
 }
 
 .header-title {
-    font-size: 140px;
-    color: white;
-    text-transform: uppercase;
+    font-size: 120px;
+    color: #FFDF3A;
+    font-family: 'Righteous', cursive;
     font-weight: 500;
     margin: auto;
+    width: 100%;
+}
+
+.header-title2 {
+    font-size: 64px;
+    color: white;
+    font-family: 'Red Hat Text', sans-serif;
+    font-weight: 500;
+    margin: auto;
+    width: 100%;
+    float: left;
 }
 
 .overlay {
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, .5);
+    width: 600px;
+    height: 250px;
     display: flex;
+    float: left;
+    display: inline-block;
+    text-align: left;
+    position: relative;
+    top: 60%;
+    left: 5%;
 }
 
 .content {
