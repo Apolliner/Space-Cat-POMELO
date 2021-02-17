@@ -20,18 +20,17 @@ def home(request):
         }
     )
 
-def contact(request):
-    """Renders the contact page."""
+def marketplace(request):
+    """Renders the marketplace page."""
     assert isinstance(request, HttpRequest)
     return render(
-        request,
-        'app/contact.html',
+            request, 
+            'app/marketplace.html', 
         {
-            'title':'Contact',
-            'message':'Your contact page.',
+            'title':'Marketplace',
             'year':datetime.now().year,
-        }
-    )
+
+        })
 
 def about(request):
     """Renders the about page."""

@@ -23,10 +23,10 @@ class ViewTest(TestCase):
         response = self.client.get('/')
         self.assertContains(response, 'Home Page', 1, 200)
 
-    def test_contact(self):
+    def test_marketplace(self):
         """Tests the contact page."""
-        response = self.client.get('/contact')
-        self.assertContains(response, 'Contact', 3, 200)
+        response = self.client.get('/marketplace')
+        self.assertContains(response, 'marketplace', 3, 200)
 
     def test_about(self):
         """Tests the about page."""

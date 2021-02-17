@@ -154,12 +154,12 @@ body {
     margin-bottom: 70px;
     transform: translateX(-50%);
     text-align: center;
-    padding-top: 125px;
+    padding: 125px;
     box-shadow: rgba(0, 0, 0, .2) 0 5px 5px;
 }
 
 .card {
-    margin: 0 10px;
+    margin: 30px;
     width: 350px;
     height: 450px;
     display: inline-block;
@@ -167,6 +167,18 @@ body {
     box-shadow: rgba(0, 0, 0, .1) 0 5px 5px;
     object-fit: cover;
     position: relative
+}
+
+.market-block {
+    width: 98.95vw; /*Определено опытным путём*/
+    height: auto;
+    background-color: #FFDF3A;
+    margin-left: 50%;
+    margin-bottom: 70px;
+    transform: translateX(-50%);
+    text-align: center;
+    padding: 125px;
+    box-shadow: rgba(0, 0, 0, .2) 0 5px 5px;
 }
 
 .no-right-margin {
