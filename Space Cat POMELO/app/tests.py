@@ -28,6 +28,7 @@ class ViewTest(TestCase):
         response = self.client.get('/marketplace')
         self.assertContains(response, 'marketplace', 3, 200)
 
+
     def test_about(self):
         """Tests the about page."""
         response = self.client.get('/about')

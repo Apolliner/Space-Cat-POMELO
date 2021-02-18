@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }} - My Django Application</title>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'app/content/style.css' %}" />
+    <link rel="icon" type="image" href="https://code.s3.yandex.net/web-code/rules-favicon.ico">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Text:ital,wght@0,500;1,700&family=Righteous&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <section class="all-content">
+        <div class="yellow-box"></div>
+        <div class="content">
+            <div class="text-block">
+                <div class="product-block">
+                    <div class="product">
+                        <div class="product-image">
+                            <style>
+                                .product-image {
+                                    background-image: url(https://pictures.s3.yandex.net/frontend-developer/free-course/card-1.jpg);
+                                }
+                            </style>
+                        </div>
+                        <div class="product-definition">
+                            <div class="product-definition-title">Space Cat Microtonal guitar</div>
+                            <div class="buy-button"><p class="text-buy-button">BUY</p></div>
+                            <p class="product-definition-text">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <p class="text-block-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+            </div>
+        </div>
+
+    </section>
+    <footer class="footer">
+        <h4 class="footer-author">Space Cat 2021</h4>
+    </footer>
+</body>
+</html>

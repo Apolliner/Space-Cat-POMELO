@@ -7,11 +7,25 @@ body, h1, h2, h3, h4, p, a {
 * {
     box-sizing: border-box;
 }
-/*
-body {
-    font-family: 'Helvetica', 'Arial', sans-serif;
+
+A.yellow {
+    text-decoration: none; /* Убирает подчеркивание для ссылок */
+    color: #FFDF3A;
 }
-*/
+
+A.yellow:hover {
+    color: white;
+}
+
+A.white {
+    text-decoration: none; /* Убирает подчеркивание для ссылок */
+    color: white;
+}
+
+A.white:hover {
+    color: #FFDF3A;
+}
+
 .header {
     height: 100vh;
     background-color: #eee;
@@ -146,7 +160,7 @@ body {
     margin-left: 100px;
 }
 
-.product-block {
+.home-pade-product-block {
     width: 98.95vw; /*Определено опытным путём*/
     height: 700px;
     background-color: #FFDF3A;
@@ -202,6 +216,86 @@ body {
     height: 100%;
     margin-bottom: 25px;
     object-fit: cover
+}
+
+.product-block {
+    width: 98.95vw; 
+    height: auto;
+    background-color: #FFDF3A;
+    margin-left: 50%;
+    margin-bottom: 70px;
+    transform: translateX(-50%);
+    text-align: center;
+    padding: 125px;
+    box-shadow: rgba(0, 0, 0, .2) 0 5px 5px;
+
+}
+
+.product {
+    width: 80%;
+    height: auto;
+    padding: 0;
+    margin: auto;
+    white-space: nowrap;
+}
+
+.product-image {
+
+    margin: 0;
+    width: 48%;
+    height: 80vh;
+    display: inline-block;
+    margin-right: 4%;
+    vertical-align: top;
+    background-size: cover;
+    background-position: center;
+}
+
+.product-definition {
+    margin: 0;
+    width: 48%;
+    height: auto;
+    display: inline-block;
+    vertical-align: top;
+    white-space: normal;
+}
+
+.product-definition-title {
+    font-size: 36px;
+    color: white;
+    font-family: 'Righteous', cursive;
+    font-weight: 500;
+    margin: auto;
+    width: 100%;
+    white-space: normal;
+    text-shadow: rgba(0, 0, 0, .3) 0 5px 5px;
+}
+
+.buy-button {
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, .3) 0 5px 5px;
+    margin: 30px;
+    height: 50px;
+    text-align: center;
+}
+.text-buy-button {
+    height: auto;
+    font-size: 24px;
+    color: black;
+    font-family: 'Red Hat Text', sans-serif;
+    line-height: 180%;
+    letter-spacing: 2px;
+}
+
+
+.product-definition-text {
+    height: auto;
+    font-size: 24px;
+    color: black;
+    font-family: 'Red Hat Text', sans-serif;
+    line-height: 180%;
+    letter-spacing: 2px;
+    text-align: left;
 }
 
 .footer {

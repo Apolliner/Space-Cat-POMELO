@@ -55,6 +55,7 @@
     <Folder Include="Space_Cat_POMELO\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="app\templates\app\product.html" />
     <Content Include="requirements.txt" />
     <Content Include="db.sqlite3" />
     <Content Include="app\static\app\content\bootstrap.css" />

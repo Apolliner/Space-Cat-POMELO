@@ -31,6 +31,17 @@ def marketplace(request):
             'year':datetime.now().year,
 
         })
+def product(request):
+    """Renders the product."""
+    assert isinstance(request, HttpRequest)
+    return render(
+        request,
+        'app/product.html',
+        {
+            'title':'product',
+            'year':datetime.now().year,
+        }
+    )
 
 def about(request):
     """Renders the about page."""
