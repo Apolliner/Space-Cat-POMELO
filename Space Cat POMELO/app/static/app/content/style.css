@@ -187,7 +187,7 @@ A.white:hover {
 }
 
 .market-block {
-    position: absolute;
+
     left: 0;
     width: 98.95vw; /*Определено опытным путём*/
     height: auto;
@@ -224,7 +224,7 @@ A.white:hover {
 }
 
 .product-block {
-    position: absolute;
+
     left: 0;
     width: 98.95vw;
     height: auto;
@@ -460,6 +460,7 @@ A.white:hover {
     font-family: 'Righteous', cursive;
     background-color: white;
     box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    position: relative
 }
 
 .button-box-login {
@@ -494,3 +495,30 @@ A.white:hover {
     color: white;
     font-family: 'Righteous', cursive;
 }
+
+.input-text-block {
+    border: none;
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    height: 50px;
+    font-size: 30px;
+    font-family: 'Righteous', cursive;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, .0);
+    text-align: center;
+}
+
+    .input-text-block:focus {
+        background-color: white;
+        text-align: center;
+    }
+
+    .input-text-block:active {
+        background-color: #FFDF3A;
+        
+    }
+
+    .input-text-block:valid {
+        background-color: white;
+    }
