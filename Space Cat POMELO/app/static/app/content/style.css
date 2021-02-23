@@ -173,17 +173,76 @@ A.white:hover {
     padding: 125px;
     box-shadow: rgba(0, 0, 0, .2) 0 5px 5px;
     overflow: hidden;
+
+}
+
+.home-pade-product-scroll {
+    margin: auto 0vw auto 0vw;
+    top: 12%;
+    position: absolute;
+    left: 0;
+    width: 500px;
+    height: 80vw;
+    overflow-y: auto;
+    overflow-x: hidden;
+    transform: rotate(-90deg) translateY(-350px);
+    transform-origin: right top;
+}
+
+    .home-pade-product-scroll::-webkit-scrollbar { /* webkit */
+        width: 0;
+        height: 0;
+    }
+
+.home-pade-product-scroll-gradient-left {
+    margin: auto 0vw auto 0vw;
+    top: 30%;
+    left: -380px;
+    z-index: 99999999;
+    width: 500px;
+    height: 55px;
+    background: linear-gradient(0deg, #FFDF3A 0%, rgba(255, 223, 58, 0) 89.84%);
+    position: fixed;
+    transform: rotate(90deg) translateY(-80px) translateX(400px);
+    transform-origin: right top;
+}
+
+.home-pade-product-scroll-gradient-right {
+    margin: auto 0vw auto 0vw;
+    top: 30%;
+    right: 13vw;
+    z-index: 99999999;
+    width: 500px;
+    height: 70px;
+    background: linear-gradient(180deg, #FFDF3A 20%, rgba(255, 223, 58, 0) 89.84%);
+    position: fixed;
+    transform: rotate(90deg) translateY(-80px) translateX(400px);
+    transform-origin: right top;
+}
+
+.card-horizontal-scroll {
+    Float: left;
+    margin: 0 30px;
+    width: 350px;
+    height: 450px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, .1) 0 5px 5px;
+    object-fit: cover;
+    position: relative;
+    transform: rotate(90deg) translateY(-80px) translateX(400px);
+    transform-origin: right top;
 }
 
 .card {
     margin: 30px;
+    Float: left;
     width: 350px;
     height: 450px;
     display: inline-block;
     background-color: white;
     box-shadow: rgba(0, 0, 0, .1) 0 5px 5px;
     object-fit: cover;
-    position: relative
+    position: relative;
 }
 
 .market-block {
@@ -512,13 +571,15 @@ A.white:hover {
     .input-text-block:focus {
         background-color: white;
         text-align: center;
+        box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
     }
 
     .input-text-block:active {
         background-color: #FFDF3A;
-        
+        box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
     }
 
     .input-text-block:valid {
         background-color: white;
+        box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
     }
