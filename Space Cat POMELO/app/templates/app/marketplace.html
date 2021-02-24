@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ title }} - My Django Application</title>
+    <title>{{ title }}</title>
     {% load static %}
     <link rel="stylesheet" type="text/css" href="{% static 'app/content/style.css' %}" />
     <link rel="icon" type="image" href="https://code.s3.yandex.net/web-code/rules-favicon.ico">
@@ -37,35 +37,8 @@
                     Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                 </p>
                 <div class="market-block">
-                    <div class="card">
-                        <a href="product/"><img src="https://pictures.s3.yandex.net/frontend-developer/free-course/card-1.jpg" class=card-image></a>
-                        <h3 class="card-title" ><a href="product/" class="white">Space Cat Microtonal guitar</a></h3>
-                    </div>
-
-                    <div class="card">
-                        <img src="https://pictures.s3.yandex.net/frontend-developer/free-course/card-2.jpg" class=card-image>
-                        <h3 class="card-title">Space Cat POMELO clean combo</h3>
-                    </div>
-
-                    <div class="card">
-                        <img src="https://pictures.s3.yandex.net/frontend-developer/free-course/card-3.jpg" class=card-image>
-                        <h3 class="card-title">Space Cat POMELO reverb combo</h3>
-                    </div>
-
-                    <div class="card">
-                        <img src="https://pictures.s3.yandex.net/frontend-developer/free-course/card-1.jpg" class=card-image>
-                        <h3 class="card-title">Space Cat Microtonal guitar</h3>
-                    </div>
-
-                    <div class="card">
-                        <img src="https://pictures.s3.yandex.net/frontend-developer/free-course/card-2.jpg" class=card-image>
-                        <h3 class="card-title">Space Cat POMELO clean combo</h3>
-                    </div>
-
-                    <div class="card">
-                        <img src="https://pictures.s3.yandex.net/frontend-developer/free-course/card-3.jpg" class=card-image>
-                        <h3 class="card-title">Space Cat POMELO reverb combo</h3>
-                    </div>
+                    
+                    {{ product_card | safe }}
 
                 </div>
                 <p class="text-block-text">

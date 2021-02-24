@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ title }} - My Django Application</title>
+    <title>{{ title }}</title>
     {% load static %}
     <link rel="stylesheet" type="text/css" href="{% static 'app/content/style.css' %}" />
     <link rel="icon" type="image" href="https://code.s3.yandex.net/web-code/rules-favicon.ico">
@@ -21,16 +21,15 @@
                         <div class="product-image">
                             <style>
                                 .product-image {
-                                    background-image: url(https://pictures.s3.yandex.net/frontend-developer/free-course/card-1.jpg);
+                                    background-image: url({{ image_product }});
                                 }
                             </style>
                         </div>
                         <div class="product-definition">
-                            <div class="product-definition-title">Space Cat Microtonal guitar</div>
-                            <div class="buy-button"><p class="text-buy-button">BUY</p></div>
+                            <div class="product-definition-title">{{ name_product }}</div>
+                            <div class="buy-button"><p class="text-buy-button">{{ price_product }}$ BUY</p></div>
                             <p class="product-definition-text">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                {{ description_product }}
                             </p>
                         </div>
                     </div>

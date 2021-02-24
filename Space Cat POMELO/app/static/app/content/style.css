@@ -198,7 +198,7 @@ A.white:hover {
     margin: auto 0vw auto 0vw;
     top: 30%;
     left: -380px;
-    z-index: 99999999;
+    z-index: 7;
     width: 500px;
     height: 55px;
     background: linear-gradient(0deg, #FFDF3A 0%, rgba(255, 223, 58, 0) 89.84%);
@@ -211,7 +211,7 @@ A.white:hover {
     margin: auto 0vw auto 0vw;
     top: 30%;
     right: 13vw;
-    z-index: 99999999;
+    z-index: 7;
     width: 500px;
     height: 70px;
     background: linear-gradient(180deg, #FFDF3A 20%, rgba(255, 223, 58, 0) 89.84%);
@@ -222,10 +222,10 @@ A.white:hover {
 
 .card-horizontal-scroll {
     Float: left;
-    margin: 0 30px;
+    margin: -20px 30px;
     width: 350px;
     height: 450px;
-    background-color: white;
+    background-color: #A1A1A1;
     box-shadow: rgba(0, 0, 0, .1) 0 5px 5px;
     object-fit: cover;
     position: relative;
@@ -235,7 +235,6 @@ A.white:hover {
 
 .card {
     margin: 30px;
-    Float: left;
     width: 350px;
     height: 450px;
     display: inline-block;
